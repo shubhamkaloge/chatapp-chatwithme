@@ -10,12 +10,12 @@ import { addUser } from '../../service/api';
 
 
 
-const Login =  ({ classes }) => {
+const Login = ({ classes }) => {
 
     const { account, setAccount } = useContext(AccountContext);
 
     const onLoginSuccess = async (res) => {
-        console.log("Login succcess",res.profileObj);
+        console.log("Login succcess", res.profileObj);
         setAccount(res.profileObj)
 
         await addUser(res.profileObj)
@@ -42,8 +42,8 @@ const Login =  ({ classes }) => {
                             <li>3. Add your email id and password of google account and click on next</li>
                             <li>4. Chat with your loved ones        </li>
                         </ol>
-                    </div>
-                    <div
+
+                        <div
                         className='login__rightComponent'
                     >
                         <GoogleLogin
@@ -59,6 +59,14 @@ const Login =  ({ classes }) => {
                         </GoogleLogin>
 
                     </div>
+                    
+                    </div>
+
+
+                    <div className="login__homepageImg">
+
+                    </div>
+                    
 
                 </div>
             </div>

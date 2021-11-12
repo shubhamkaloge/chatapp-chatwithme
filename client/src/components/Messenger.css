@@ -18,9 +18,27 @@
     align-items: center;
    
 }
+.messenger__header h6{
+    display: none;
+}
 
 .messenger__chatAppName h5 {
     color: white;
     font-size: 30px;
     
+}
+.messenger__chatAppName2 h6 {
+    color: #F3CEEF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8px;
+    
+    
+}
+
+.messenger__mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
