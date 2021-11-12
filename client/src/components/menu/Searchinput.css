@@ -1,0 +1,36 @@
+.SearchInput__sidebarSearch{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    height: 50px;
+    /* background-color: lightgrey; */
+    background: royalblue;
+    
+}
+.SearchInput__sidebarSearchContainer{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    border-radius: 14px;
+}
+
+/* target material icon */
+.SearchInput__sidebarSearchContainer > .MuiSvgIcon-root{
+    color: green;
+    padding: 10px;
+    font-size: 42px;
+    
+}
+
+.SearchInput__sidebarSearchContainer input{
+    border: none;
+    outline-width: 0;
+    margin-left:10px ;
+    /* border: 2px solid red; */
+    width: 100%;
+    font-size: 16px;
+
+}

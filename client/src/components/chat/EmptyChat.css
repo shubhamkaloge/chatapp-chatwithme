@@ -1,0 +1,49 @@
+/* .EmptyChat__mainDiv{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #E2DEFF;
+    
+    
+} */
+
+/* .EmptyChat__container{
+    border: 2px solid black;
+    height: 30vh;
+    background-color: royalblue;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px -9px #3F3F3F;
+    
+} */
+
+/* .EmptyChat__startConversationHeading{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3F3F3F;
+} */
+
+.EmptyChat__startConversationDiv{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+.EmptyChat__startConversationHeading{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.EmptyChat__startConversationImage{
+    background: url('./startConversationImage.jpg');
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}

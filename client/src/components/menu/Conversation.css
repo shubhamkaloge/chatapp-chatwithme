@@ -1,0 +1,64 @@
+.Conversation__outerDiv {
+    display: flex;
+    background: rgb(226, 222, 255);
+    border-bottom: 1px solid #3f3f3f;
+    border-radius: 6px;
+    cursor: pointer;
+    max-height: 80px;
+}
+
+.Conversation__sideProfileContainer {
+    display: flex;
+    /* border: 1px solid green; */
+    align-items: center;
+   
+}
+
+.Conversation__sideProfileContainer img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.Conversation__sideProfileContainer h5 {
+    padding: 25px 25px 25px 16px;
+    font-size: 16px;
+    color: #3F3F3F;
+    /* border: 1px solid red; */
+    min-width: 150px;
+    max-width: 200px;
+    overflow: hidden;
+    word-break: keep-all;
+}
+
+.Conversation__recentMsg {
+    overflow: hidden;
+}
+
+.Conversation__sideNameAndRecentMsg {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.Conversation__sideNameAndRecentMsg h5{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.Conversation__sideNameAndRecentMsg p {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.Conversation__sideNameAndRecentMsg small{
+    color:grey;
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 12px;
+}

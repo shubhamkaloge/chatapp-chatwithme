@@ -1,0 +1,26 @@
+.Header__header {
+    height: 90px;
+    background: lightgrey;
+    padding: 16px 16px;
+    display: flex;
+    align-items:center;
+    width: 30vw;
+    border-bottom: 1px solid lightgrey;
+    background: royalblue;
+    /* border: 3px solid red; */
+    
+}
+.Header__avatar {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor:pointer;
+}
+.Header__icons {
+    margin-left: auto;
+    /* border: 2px solid red; */
+}
+.Header__icons .MuiSvgIcon-root{
+    /* border: 2px solid red; */
+    color: white;
+}

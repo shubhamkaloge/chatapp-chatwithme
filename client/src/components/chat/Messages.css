@@ -1,0 +1,7 @@
+
+.Messages__messages{
+    background-color: beige;
+    height: 71vh;
+    /* border: 3px solid red; */
+    overflow: overlay;
+}

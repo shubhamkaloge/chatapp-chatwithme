@@ -1,0 +1,37 @@
+.Profile__profileMainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;   
+}
+
+.Profile__profileImg{
+    margin-top: 0;
+    /* border: 2px solid rgb(52, 30, 30); */
+    height: 30vh;
+    width: 30vw;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile__profileImg img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.Profile__profileDetails{
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+.Profile__profileDetails h5{
+    margin-top: 10px;
+}
+.Profile__profileDetails span{
+    color: rgb(255, 28, 28);
+}

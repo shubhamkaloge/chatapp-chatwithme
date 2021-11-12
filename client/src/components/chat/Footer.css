@@ -1,0 +1,50 @@
+.Footer__mainDiv{
+    background-color: royalblue;
+    /* border: 3px solid red; */
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    
+}
+.Footer__bottomFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Footer__icons{
+    color: white;
+    cursor: pointer;
+   
+}
+.Footer__iconsEmoji{
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.Footer__messageSearchContainer input{
+    /* border: 2px solid red; */
+    
+    width: 43vw;
+    height: 6vh;
+    border-radius: 12px;
+    font-size: 17px;
+    padding: 10px;
+    margin-left: 4px;
+    border: none;
+}
+.Footer__messageSearchContainer input:active {
+    outline: none;
+    outline-width: 0;
+}
+.Footer__messageSearchContainer input:focus{
+    outline: none;
+    outline-width: 0;   
+}
+
+.Footer__messageSearchContainer{
+    margin-right: 20px;
+    margin-left: 35px;
+}

@@ -1,0 +1,9 @@
+.Conversations__mainDiv{
+    height: 71vh;
+    background-color: rgb(226, 222, 255);
+    
+    overflow: overlay    ;
+    /* border: 2px solid sandybrown; */
+    max-width: 30vw;
+    
+}

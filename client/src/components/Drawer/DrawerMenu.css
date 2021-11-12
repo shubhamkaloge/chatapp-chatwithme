@@ -1,0 +1,40 @@
+.DrawerMenu__mainDiv {
+    background-color: rgb(226, 222, 255);
+    height: 92vh;
+    top: 10vh;
+    left: 4.1vw;
+    border-radius: 7px;
+    width: 30vw;
+    
+    
+}
+.DrawerMenu__upperProfileBar{
+    width: 30vw;
+    background-color: royalblue;
+    height: 15vh;
+    display: flex;
+    justify-content: center   ;
+    align-items: center;
+    margin-bottom: 0;
+    /* border: 2px solid orange; */
+    
+
+}
+.DrawerMenu__upperProfileBar h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'system-ui';
+    margin-left: 20px;
+    
+}
+.DrawerMenu__upperProfileBar .MuiSvgIcon-root{
+    color:white;
+}
+.DrawerMenu__upperProfileBar .MuiSvgIcon-root:hover{
+    color:red;
+}
+
+/* .DrawerMenu__profileDiv{
+
+} */
